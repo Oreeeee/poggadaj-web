@@ -1,0 +1,16 @@
+body {
+	background-color: #FF8040;
+}
+
+main {
+	width: 60%;
+	margin-inline: auto;
+	height: 1000px;
+	text-align: center;
+	background-color: #FFFF9B;
+}
+
+.column {
+	float: left;
+	width: 50%;
+}

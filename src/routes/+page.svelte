@@ -6,7 +6,7 @@
 
 <div>
 	<div class="column">
-		<h4>{$_("features")}</h4>
+		<h4>{$_("features")}:</h4>
 		<ul>
 			<li>{$_("gg6-support")}</li>
 			<li>{$_("no-annoying-ads")}</li>

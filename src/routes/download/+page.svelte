@@ -7,9 +7,11 @@
 <h1>{$_("patched-clients")}</h1>
 <Warning wType="info" message={$_("patched-clients-note")} />
 <div id="client-box">
-    <Client name="Gadu-Gadu 6.1" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nibh arcu, aliquam in semper in, mattis in nibh. Duis cursus." imageUrl="gg61.png" noSSL insecureHash modernWinProblems />
+    <!-- TODO: Replace image for GG 6.0 -->
+    <Client name="Gadu-Gadu 6.0" description={$_("gg60-description")} imageUrl="gg61.png" noSSL insecureHash modernWinProblems />
     <br>
-    <Client name="Gadu-Gadu 6.1" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nibh arcu, aliquam in semper in, mattis in nibh. Duis cursus." imageUrl="gg61.png" noSSL insecureHash modernWinProblems />
+    <!-- TODO: Replace with a Windows XP screenshot -->
+    <Client name="Gadu-Gadu 6.1" description={$_("gg61-description")} imageUrl="gg61.png" noSSL insecureHash modernWinProblems />
 </div>
 <h1>{$_("auto-patching")}</h1>
 <Warning wType="info" message="Work in progress!" />

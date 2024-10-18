@@ -22,5 +22,7 @@
     "modern-win-problems": "This client might have compatibility problems under modern OS-es. From my testing this is not the case.",
     "patched-clients-note": "This is the easiest and recommended way to get started",
     "unpatched-clients-note": "You should only use this method if you want to use an untouched build of GG!",
-    "manual-patching-note": "This method of patching is error-prone!"
+    "manual-patching-note": "This method of patching is error-prone!",
+    "gg60-description": "The first release of Gadu-Gadu from the 6.x series.",
+    "gg61-description": "The most popular version of Gadu-Gadu, called by many people \"The best version of Gadu-Gadu\". At the moment it is the recommended version to connect to poGGadaj."
 }

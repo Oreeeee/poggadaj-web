@@ -22,5 +22,7 @@
     "modern-win-problems": "Ten klient może mieć problemy z kompatybilnością na nowych systemach operacyjnych. Według moich testów, nie było żadnych problemów.",
     "patched-clients-note": "Jest to najłatwiejsza i zalecana metoda łączenia się z serwerem",
     "unpatched-clients-note": "Metoda ta powinna być stosowana tylko wtedy, kiedy chcesz korzystać z niezmodyfikowanego klienta Gadu-Gadu",
-    "manual-patching-note": "Ta metoda jest podatna na błędy ludzkie!"
+    "manual-patching-note": "Ta metoda jest podatna na błędy ludzkie!",
+    "gg60-description": "Pierwsze wydanie Gadu-Gadu z serii 6",
+    "gg61-description": "Najbardziej słynna wersja Gadu-Gadu, przez wielu nazywana jako \"Najlepsze Gadu-Gadu\". Jest to aktualnie zalecana wersja do połączenia z serwerem."
 }

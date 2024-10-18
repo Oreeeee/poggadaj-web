@@ -5,9 +5,13 @@ body {
 main {
 	width: 60%;
 	margin-inline: auto;
-	height: 1000px;
+	height: auto;
+	padding-bottom: 30px;
+	overflow-y: auto;
 	text-align: center;
 	background-color: #FFFF9B;
+	padding: 10px;
+	border: 2px solid grey;
 }
 
 .column {

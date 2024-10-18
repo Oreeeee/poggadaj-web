@@ -6,14 +6,20 @@
 
 <div>
 	<div class="column">
-		<h4 class="feature-list-element">{$_("features")}:</h4>
-		<ul id="feature-list" class="feature-list-element">
+		<h4 class="feature-list">{$_("features")}:</h4>
+		<ul class="feature-list">
 			<li>{$_("gg6-support")}</li>
 			<li>{$_("no-annoying-ads")}</li>
 			<li>{$_("easy-installation")}</li>
 			<li>{$_("open-source")}</li>
 			<li>{$_("bot-compatibility")}</li>
 			<li>{$_("more-clients")}</li>
+		</ul>
+		<br>
+		<h4 class="feature-list">{$_("supported-clients")}:</h4>
+		<ul class="feature-list">
+			<li>Gadu-Gadu 6.0</li>
+			<li>Gadu-Gadu 6.1</li>
 		</ul>
 	</div>
 	<div class="column">
@@ -27,11 +33,8 @@
 		font-weight: 500;
 	}
 
-	#feature-list {
+	.feature-list {
 		list-style-image: url('/brb.png');
-	}
-
-	.feature-list-element {
 		font-family: 'Lato Regular';
 	}
 </style>

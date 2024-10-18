@@ -2,7 +2,7 @@
 	import { _ } from "svelte-i18n"
 </script>
 
-<h2>{$_("mainpage-p1")}</h2>
+<h2 id="mainpage-h2">{$_("mainpage-p1")}</h2>
 
 <div>
 	<div class="column">
@@ -20,3 +20,10 @@
 		<img src="gg61.png" alt="Example screenshot of Gadu-Gadu 6.1 connected to poGGadaj">
 	</div>
 </div>
+
+<style>
+	#mainpage-h2 {
+		font-family: 'JetBrains Mono Medium';
+		font-weight: 500;
+	}
+</style>

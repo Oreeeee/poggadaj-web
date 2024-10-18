@@ -14,3 +14,7 @@ main {
 	float: left;
 	width: 50%;
 }
+
+#header {
+	font-family: 'Patrick Hand';
+}

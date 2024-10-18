@@ -15,5 +15,8 @@
     "patched-clients": "Zmodyfikowane klienty",
     "auto-patching": "Automatyczna modyfikacja klientów",
     "unpatched": "Połączenie z niezmodyfikowanych klientów (metoda hosts)",
-    "manual": "Manualna modyfikacja klienta"
+    "manual": "Manualna modyfikacja klienta",
+    "no-ssl": "Ten klient nie używa szyfrowania SSL! Oznacza to, że potencjalny ataker może przechwycić twoje wiadomości. Unikaj używania tego klienta, jeżeli korzystasz z publicznej sieci WiFi, mieszkasz w dyktaturze, lub jeśli masz inny model zagrożenia!",
+    "insecure-hash": "Ten klient wykorzystuje niekryptograficzny algorytm hashowania (GG32). Potencjalny ataker może przechwycić i złamać hasło do Twojego konta (lecz prawdopodobnie nie zdobędzie prawdziwego hasła z powodu dużej ilości kolizji).",
+    "modern-win-problems": "Ten klient może mieć problemy z kompatybilnością na nowych systemach operacyjnych. Według moich testów, nie było żadnych problemów."
 }

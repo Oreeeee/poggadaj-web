@@ -15,5 +15,8 @@
     "patched-clients": "Patched clients",
     "auto-patching": "Automatic patching guide",
     "unpatched": "Unpatched client guide (hosts method)",
-    "manual": "Manual patching"
+    "manual": "Manual patching",
+    "no-ssl": "This client doesn't use SSL encryption! This means that a potential attacker can intercept and capture your messages. Avoid using it if you are using a public WiFi, live in a dictatorship, or have any other threat model!",
+    "insecure-hash": "This client uses a non-cryptographic password hashing algorithm (GG32). A potential attacker can intercept and quickly crack your password (but most likely won't get your real password, as there are many collisions).",
+    "modern-win-problems": "This client might have compatibility problems under modern OS-es. From my testing this is not the case."
 }

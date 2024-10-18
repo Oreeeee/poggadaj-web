@@ -6,8 +6,8 @@
 
 <div>
 	<div class="column">
-		<h4>{$_("features")}:</h4>
-		<ul id="feature-list">
+		<h4 class="feature-list-element">{$_("features")}:</h4>
+		<ul id="feature-list" class="feature-list-element">
 			<li>{$_("gg6-support")}</li>
 			<li>{$_("no-annoying-ads")}</li>
 			<li>{$_("easy-installation")}</li>
@@ -29,5 +29,9 @@
 
 	#feature-list {
 		list-style-image: url('/brb.png');
+	}
+
+	.feature-list-element {
+		font-family: 'Lato Regular';
 	}
 </style>

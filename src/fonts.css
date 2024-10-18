@@ -7,3 +7,8 @@
     font-family: 'JetBrains Mono Medium';
     src: url('/JetBrainsMono-Medium.ttf');
 }
+
+@font-face {
+    font-family: 'Lato Regular';
+    src: url('/Lato-Regular.ttf');
+}

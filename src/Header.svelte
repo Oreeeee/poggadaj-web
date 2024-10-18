@@ -8,8 +8,12 @@
 </hgroup>
 
 <div>
-    <button>{$_('home')}</button>
-    <button>{$_('download')}</button>
+    <a href="/">
+        <button>{$_('home')}</button>
+    </a>
+    <a href="/download">
+        <button>{$_('download')}</button>
+    </a>
     <button>{$_('account')}</button>
     <button>{$_('stats')}</button>
 </div>

@@ -11,5 +11,9 @@
     "home": "Home",
     "download": "Download",
     "account": "Account",
-    "stats": "Stats"
+    "stats": "Stats",
+    "patched-clients": "Patched clients",
+    "auto-patching": "Automatic patching guide",
+    "unpatched": "Unpatched client guide (hosts method)",
+    "manual": "Manual patching"
 }

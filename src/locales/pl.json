@@ -11,5 +11,9 @@
     "home": "Strona główna",
     "download": "Pobierz",
     "account": "Konto",
-    "stats": "Statystyki"
+    "stats": "Statystyki",
+    "patched-clients": "Zmodyfikowane klienty",
+    "auto-patching": "Automatyczna modyfikacja klientów",
+    "unpatched": "Połączenie z niezmodyfikowanych klientów (metoda hosts)",
+    "manual": "Manualna modyfikacja klienta"
 }

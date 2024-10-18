@@ -7,5 +7,9 @@
     "easy-installation": "Easy setup",
     "open-source": "Open-source server under the MIT license",
     "bot-compatibility": "Compatibility with bots and libraries made for GG 6.x",
-    "more-clients": "Support for more clients coming soon!"
+    "more-clients": "Support for more clients coming soon!",
+    "home": "Home",
+    "download": "Download",
+    "account": "Account",
+    "stats": "Stats"
 }

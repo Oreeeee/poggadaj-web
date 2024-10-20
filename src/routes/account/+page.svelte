@@ -1,5 +1,6 @@
 <script>
     import { onMount } from "svelte";
+    import { _ } from "svelte-i18n"
 
     let gg32pass
 
@@ -18,14 +19,13 @@
         const res = await req.status
 
         if (res == 200) {
-            alert("Password changed successfuly")
+            alert($_("password-chg-succ"))
         } else {
-            alert("Failed to change the password")
+            alert($_("password-chg-fail"))
         }
     }
 </script>
 
-<h1>This page is really barebones right now!</h1>
-<label for="gg32-pass">Change your GG32 password</label>
+<label for="gg32-pass">{$_("gg32-changepass")}</label>
 <input type="password" name="gg32-pass" id="gg32-passfield" bind:value={gg32pass}>
-<button on:click={updateGG32pass}>Submit</button>
+<button on:click={updateGG32pass}>{$_("submit")}</button>

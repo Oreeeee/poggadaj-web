@@ -1,4 +1,5 @@
 <script>
+    import { _ } from "svelte-i18n"
     export let usage;
 
     let username;
@@ -9,10 +10,10 @@
         const res = await req.status
 
         if (res == 401) {
-            alert("Wrong username or password")
+            alert($_("wrong-uop"))
         }
         if (res == 200) {
-            alert("Authenticated!")
+            alert($_("authenticated"))
         }
     }
 
@@ -21,24 +22,24 @@
         const res = await req.status
 
         if (res == 200) {
-            alert("Registered successfully, redirecting to login page...")
+            alert($_("registered"))
             window.location.href = "/login"
         } else {
-            alert("An error has occured when registering")
+            alert($_("register-fail"))
         }
     }
 </script>
 
 <div class="login-form">
-    <label for="username">Web Username</label>
+    <label for="username">{$_("web-username")}</label>
     <input type="text" id="username" bind:value={username}>
     <br><br>
-    <label for="password">Web Password</label>
+    <label for="password">{$_("web-password")}</label>
     <input type="password" id="password" bind:value={password}>
     <br><br>
     {#if usage == "login"}
-    <button on:click={submitLogin}>Login</button>
+    <button on:click={submitLogin}>{$_("login")}</button>
     {:else if usage == "register"}
-    <button on:click={submitRegister}>Register</button>
+    <button on:click={submitRegister}>{$_("register")}</button>
     {/if}
 </div>

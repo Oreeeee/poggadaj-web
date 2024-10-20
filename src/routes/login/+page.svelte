@@ -1,7 +1,8 @@
 <script>
   import LoginForm from "../../LoginForm.svelte";
+  import { _ } from "svelte-i18n"
 </script>
 
-<h1>Log In</h1>
+<h1>{$_("login")}</h1>
 <LoginForm usage="login" />
-<p>Don't have an account yet?</p><a href="/register">Register now!</a>
+<p>{$_("no-account")}</p><a href="/register">{$_("register")}!</a>

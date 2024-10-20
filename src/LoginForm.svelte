@@ -5,7 +5,7 @@
     let password;
 
     async function submitLogin() {
-        const req = await fetch(`http://localhost:8080/api/v1/login?name=${username}&password=${password}`)
+        const req = await fetch(`/api/v1/login?name=${username}&password=${password}`)
         const res = await req.status
 
         if (res == 401) {
@@ -17,7 +17,7 @@
     }
 
     async function submitRegister() {
-        const req = await fetch(`http://localhost:8080/api/v1/register?name=${username}&password=${password}`)
+        const req = await fetch(`/api/v1/register?name=${username}&password=${password}`)
         const res = await req.status
 
         if (res == 200) {

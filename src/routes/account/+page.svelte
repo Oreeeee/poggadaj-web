@@ -5,7 +5,7 @@
 
     onMount(async function() {
         // Verify if user is authenticated
-        const req = await fetch(`http://localhost:8080/api/v1/is-authenticated`)
+        const req = await fetch(`/api/v1/is-authenticated`)
         const res = await req.status
 
         if (res != 200) {
@@ -14,7 +14,7 @@
     })
 
     async function updateGG32pass() {
-        const req = await fetch(`http://localhost:8080/api/v1/gg32-changepwd?password=${gg32pass}`)
+        const req = await fetch(`/api/v1/gg32-changepwd?password=${gg32pass}`)
         const res = await req.status
 
         if (res == 200) {

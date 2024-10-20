@@ -12,6 +12,10 @@
     <br>
     <!-- TODO: Replace with a Windows XP screenshot -->
     <Client name="Gadu-Gadu 6.1" description={$_("gg61-description")} imageUrl="gg61.png" noSSL insecureHash modernWinProblems />
+    <br>
+    <!-- TODO: Yeah, that too -->
+    <!-- Additionally, write a better description -->
+    <Client name="Gadu-Gadu 7.0" description={$_("gg70-description")} imageUrl="gg61.png" noSSL insecureHash modernWinProblems />
 </div>
 <h1>{$_("auto-patching")}</h1>
 <Warning wType="info" message="Work in progress!" />

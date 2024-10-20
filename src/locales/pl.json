@@ -25,6 +25,7 @@
     "manual-patching-note": "Ta metoda jest podatna na błędy ludzkie!",
     "gg60-description": "Pierwsze wydanie Gadu-Gadu z serii 6",
     "gg61-description": "Najbardziej słynna wersja Gadu-Gadu, przez wielu nazywana jako \"Najlepsze Gadu-Gadu\". Jest to aktualnie zalecana wersja do połączenia z serwerem.",
+    "gg70-description": "Pierwsze wydanie Gadu-Gadu z serii 7. Największą różnicą jest wygląd interfejsu, gdyż pod względem kodu niczym wiele się nie różnią.",
     "wrong-uop": "Błędne nazwa użytkownika lub hasło",
     "authenticated": "Zalogowano!",
     "registered": "Zarejestrowano!",

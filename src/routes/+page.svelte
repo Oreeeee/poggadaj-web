@@ -20,6 +20,7 @@
 		<ul class="feature-list">
 			<li>Gadu-Gadu 6.0</li>
 			<li>Gadu-Gadu 6.1</li>
+			<li>Gadu-Gadu 7.0</li>
 		</ul>
 	</div>
 	<div class="column">

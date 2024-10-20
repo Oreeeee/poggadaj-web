@@ -14,6 +14,8 @@
     <a href="/download">
         <button>{$_('download')}</button>
     </a>
-    <button>{$_('account')}</button>
+    <a href="/account">
+        <button>{$_('account')}</button>
+    </a>
     <button>{$_('stats')}</button>
 </div>

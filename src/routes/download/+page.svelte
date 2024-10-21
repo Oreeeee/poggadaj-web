@@ -7,13 +7,13 @@
 <h1>{$_("patched-clients")}</h1>
 <Warning wType="info" message={$_("patched-clients-note")} />
 <div id="client-box">
-    <Client name="Gadu-Gadu 6.0" description={$_("gg60-description")} imageUrl="gg60.png" noSSL insecureHash modernWinProblems />
+    <Client name="Gadu-Gadu 6.0" description={$_("gg60-description")} imageUrl="gg60.png" downloadUrl="/dl/gg60-poggadajv1.0.zip" noSSL insecureHash modernWinProblems />
     <br>
-    <Client name="Gadu-Gadu 6.1" description={$_("gg61-description")} imageUrl="gg61.png" noSSL insecureHash modernWinProblems />
+    <Client name="Gadu-Gadu 6.1" description={$_("gg61-description")} imageUrl="gg61.png" downloadUrl="/dl/gg61-poggadajv1.0.zip" noSSL insecureHash modernWinProblems />
     <br>
-    <Client name="Gadu-Gadu 7.0" description={$_("gg70-description")} imageUrl="gg70.png" noSSL insecureHash modernWinProblems />
+    <Client name="Gadu-Gadu 7.0" description={$_("gg70-description")} imageUrl="gg70.png" downloadUrl="/dl/gg70-poggadajv1.0.zip" noSSL insecureHash modernWinProblems />
     <br>
-    <Client name="Gadu-Gadu 7.1" description={$_("gg71-description")} imageUrl="gg71.png" noSSL insecureHash modernWinProblems />
+    <Client name="Gadu-Gadu 7.1" description={$_("gg71-description")} imageUrl="gg71.png" downloadUrl="/dl/gg71-poggadajv1.0.zip" noSSL insecureHash modernWinProblems />
 </div>
 <!--
 <h1>{$_("auto-patching")}</h1>

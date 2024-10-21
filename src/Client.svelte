@@ -2,6 +2,7 @@
     export let name;
     export let description;
     export let imageUrl;
+    export let downloadUrl;
     export let noSSL;
     export let insecureHash;
     export let modernWinProblems;
@@ -32,6 +33,9 @@
     <div class="column">
         <img src={imageUrl} alt="Screenshot of {name} connected to poGGadaj">
     </div>
+    <button class="dl-button">
+        <a href={downloadUrl}>{$_("download")}</a>
+    </button>
 </div>
 
 <style>
@@ -50,5 +54,10 @@
 
     .client-description {
         font-family: 'Lato Regular';
+    }
+
+    .dl-button {
+        width: 100%;
+        height: 30px;
     }
 </style>

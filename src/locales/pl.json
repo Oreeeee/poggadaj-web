@@ -38,5 +38,7 @@
     "submit": "Prześlij",
     "password-chg-succ": "Zmieniono hasło pomyślnie",
     "password-chg-fail": "Nastąpił błąd podczas zmiany hasła",
-    "no-account": "Nie posiadasz konta?"
+    "no-account": "Nie posiadasz konta?",
+    "your-uin": "Twój numer GG",
+    "joined-date": "Zarejestrowano"
 }

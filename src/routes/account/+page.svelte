@@ -3,6 +3,8 @@
     import { _ } from "svelte-i18n"
 
     let gg32pass
+    let ggUIN
+    let joinedDate
 
     onMount(async function() {
         // Verify if user is authenticated
@@ -12,6 +14,13 @@
         if (res != 200) {
             window.location.href = "/login"
         }
+
+        // Get user data
+        const req2 = await fetch("/api/v1/user-data")
+        const res2 = await req2.json()
+
+        ggUIN = res2.uin
+        joinedDate = res2.joined
     })
 
     async function updateGG32pass() {
@@ -26,6 +35,8 @@
     }
 </script>
 
+<h1>{$_("your-uin")}: {ggUIN}</h1>
+<h1>{$_("joined-date")}: {joinedDate}</h1>
 <label for="gg32-pass">{$_("gg32-changepass")}</label>
 <input type="password" name="gg32-pass" id="gg32-passfield" bind:value={gg32pass}>
 <button on:click={updateGG32pass}>{$_("submit")}</button>

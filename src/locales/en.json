@@ -38,5 +38,7 @@
     "submit": "Submit",
     "password-chg-succ": "Password changed successfully",
     "password-chg-fail": "Password change failed!",
-    "no-account": "You don't have an account yet?"
+    "no-account": "You don't have an account yet?",
+    "your-uin": "Your GG number",
+    "joined-date": "Joined"
 }

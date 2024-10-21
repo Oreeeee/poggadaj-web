@@ -25,7 +25,8 @@
     "manual-patching-note": "Ta metoda jest podatna na błędy ludzkie!",
     "gg60-description": "Pierwsze wydanie Gadu-Gadu z serii 6",
     "gg61-description": "Najbardziej słynna wersja Gadu-Gadu, przez wielu nazywana jako \"Najlepsze Gadu-Gadu\". Jest to aktualnie zalecana wersja do połączenia z serwerem.",
-    "gg70-description": "Pierwsze wydanie Gadu-Gadu z serii 7. Największą różnicą jest wygląd interfejsu, gdyż pod względem kodu niczym wiele się nie różnią.",
+    "gg70-description": "Pierwsze wydanie Gadu-Gadu z serii 7. Największą różnicą jest wygląd interfejsu, gdyż pod względem kodu niczym wiele się nie różnią. UWAGA! Nie działają statusy (szczególnie opisowe)",
+    "gg71-description": "Mała aktualizacja do GG",
     "wrong-uop": "Błędne nazwa użytkownika lub hasło",
     "authenticated": "Zalogowano!",
     "registered": "Zarejestrowano!",
@@ -40,5 +41,6 @@
     "password-chg-fail": "Nastąpił błąd podczas zmiany hasła",
     "no-account": "Nie posiadasz konta?",
     "your-uin": "Twój numer GG",
-    "joined-date": "Zarejestrowano"
+    "joined-date": "Zarejestrowano",
+    "experimental": "eksperymentalne"
 }

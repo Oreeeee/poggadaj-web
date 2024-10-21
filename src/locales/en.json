@@ -25,7 +25,8 @@
     "manual-patching-note": "This method of patching is error-prone!",
     "gg60-description": "The first release of Gadu-Gadu from the 6.x series.",
     "gg61-description": "The most popular version of Gadu-Gadu, called by many people \"The best version of Gadu-Gadu\". At the moment it is the recommended version to connect to poGGadaj.",
-    "gg70-description": "The first release of Gadu-Gadu from the 7.x series. The biggest difference is the user interface, as under the hood it isn't much different than 6.x",
+    "gg70-description": "The first release of Gadu-Gadu from the 7.x series. The biggest difference is the user interface, as under the hood it isn't much different than 6.x. WARNING: Statuses don't work (especially descriptive ones)",
+    "gg71-description": "Minor update to GG",
     "wrong-uop": "Wrong username or password",
     "authenticated": "Logged in!",
     "registered": "Registered successfully",
@@ -40,5 +41,6 @@
     "password-chg-fail": "Password change failed!",
     "no-account": "You don't have an account yet?",
     "your-uin": "Your GG number",
-    "joined-date": "Joined"
+    "joined-date": "Joined",
+    "experimental": "experimental"
 }

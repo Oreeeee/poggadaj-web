@@ -20,9 +20,9 @@
 <Warning wType="info" message="Work in progress!" />
 <h1>{$_("unpatched")}</h1>
 <Warning wType="warn" message={$_("unpatched-clients-note")} />
--->
 <h1>{$_("manual")}</h1>
 <Warning wType="serious" message={$_("manual-patching-note")} />
+-->
 
 <style>
     h1 {

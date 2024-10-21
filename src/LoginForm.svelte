@@ -14,6 +14,7 @@
         }
         if (res == 200) {
             alert($_("authenticated"))
+            window.location.href = "/account"
         }
     }
 

@@ -35,12 +35,13 @@
     "web-password": "Hasło (WWW)",
     "login": "Zaloguj się",
     "register": "Zarejestruj się",
-    "gg32-changepass": "Zmień swoje hasło do GG",
+    "gg-changepass": "Zmień swoje hasło do GG",
     "submit": "Prześlij",
     "password-chg-succ": "Zmieniono hasło pomyślnie",
     "password-chg-fail": "Nastąpił błąd podczas zmiany hasła",
     "no-account": "Nie posiadasz konta?",
     "your-uin": "Twój numer GG",
     "joined-date": "Zarejestrowano",
-    "experimental": "eksperymentalne"
+    "experimental": "eksperymentalne",
+    "client-password": "Hasło do klientów"
 }

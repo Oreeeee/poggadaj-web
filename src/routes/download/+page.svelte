@@ -15,6 +15,16 @@
     <br>
     <Client name="Gadu-Gadu 7.1" description={$_("gg71-description")} imageUrl="gg71.png" downloadUrl="/dl/gg71-poggadajv1.0.zip" noSSL insecureHash modernWinProblems />
 </div>
+
+<h1>{$_("patched-clients")}</h1>
+<Warning wType="info" message={$_("unpatched-guide")} />
+<div id="client-box">
+    <Client name="Gadu-Gadu 7.5" description="Klient, w którym poprawiono bezpieczeństwo haseł i naprawiono wsparcie dla nowszych systemów operacyjnych" imageUrl="gg71.png" downloadUrl="/dl/gg71-poggadajv1.0.zip" noSSL />
+    <br>
+    <Client name="Gadu-Gadu 7.6" description={$_("gg71-description")} imageUrl="gg71.png" downloadUrl="/dl/gg71-poggadajv1.0.zip" noSSL />
+    <br>
+    <Client name="Gadu-Gadu 7.7" description={$_("gg71-description")} imageUrl="gg71.png" downloadUrl="/dl/gg71-poggadajv1.0.zip" noSSL />
+</div>
 <!--
 <h1>{$_("auto-patching")}</h1>
 <Warning wType="info" message="Work in progress!" />

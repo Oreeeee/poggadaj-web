@@ -20,8 +20,11 @@
 		<ul class="feature-list">
 			<li>Gadu-Gadu 6.0</li>
 			<li>Gadu-Gadu 6.1</li>
-			<li>Gadu-Gadu 7.0 ({$_("experimental")}!)</li>
-			<li>Gadu-Gadu 7.1 ({$_("experimental")}!)</li>
+			<li>Gadu-Gadu 7.0</li>
+			<li>Gadu-Gadu 7.1</li>
+			<li>Gadu-Gadu 7.5</li>
+			<li>Gadu-Gadu 7.6</li>
+			<li>Gadu-Gadu 7.7</li>
 		</ul>
 	</div>
 	<div class="column">

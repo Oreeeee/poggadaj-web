@@ -27,7 +27,7 @@
     "manual-patching-note": "This method of patching is error-prone!",
     "gg60-description": "The first release of Gadu-Gadu from the 6.x series.",
     "gg61-description": "The most popular version of Gadu-Gadu, called by many people \"The best version of Gadu-Gadu\". At the moment it is the recommended version to connect to poGGadaj.",
-    "gg70-description": "The first release of Gadu-Gadu from the 7.x series. The biggest difference is the user interface, as under the hood it isn't much different than 6.x. WARNING: Statuses don't work (especially descriptive ones)",
+    "gg70-description": "The first release of Gadu-Gadu from the 7.x series. The biggest difference is the user interface, as under the hood it isn't much different than 6.x.",
     "gg71-description": "Minor update to GG",
     "gg75-description": "Client, which fixes password security and compatibility with newer operating systems",
     "gg77-description": "This version changed the protocol used for VOIP calls due to license issues. It is the last version before the major 8.0 update. This version is called by many people \"The last good version of Gadu-Gadu\", and was used for a long time after the 8.0 update.",

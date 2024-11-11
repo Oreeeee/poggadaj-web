@@ -33,9 +33,11 @@
     <div class="column">
         <img src={imageUrl} alt="Screenshot of {name} connected to poGGadaj">
     </div>
-    <button class="dl-button">
-        <a href={downloadUrl}>{$_("download")}</a>
-    </button>
+    <a href={downloadUrl}>
+        <button class="dl-button">
+            {$_("download")}
+        </button>
+    </a>
 </div>
 
 <style>

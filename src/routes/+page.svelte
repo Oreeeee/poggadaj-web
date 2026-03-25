@@ -11,13 +11,14 @@
 			<li>{$_("gg6-support")}</li>
 			<li>{$_("no-annoying-ads")}</li>
 			<li>{$_("easy-installation")}</li>
-			<li>{$_("open-source")}</li>
+			<li><a href="https://codeberg.org/or3e/poggadaj" target="_blank">{$_("open-source")}</a> {$_("open-source-text")}</li>
 			<li>{$_("bot-compatibility")}</li>
 			<li>{$_("more-clients")}</li>
 		</ul>
 		<br>
 		<h4 class="feature-list">{$_("supported-clients")}:</h4>
 		<ul class="feature-list">
+		    <li>Gadu-Gadu 5.0</li>
 			<li>Gadu-Gadu 6.0</li>
 			<li>Gadu-Gadu 6.1</li>
 			<li>Gadu-Gadu 7.0</li>
